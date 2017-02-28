@@ -212,4 +212,7 @@
   <ItemGroup>
     <None Include="Migrations\0001_baseline.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\0002_add_last_serviced_at_column.sql" />
+  </ItemGroup>
 </Project>
