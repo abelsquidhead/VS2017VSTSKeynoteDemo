@@ -213,6 +213,6 @@
     <None Include="Migrations\0001_baseline.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Migrations\0002_add_last_serviced_at_column.sql" />
+    <None Include="Migrations\0002_20170228-1219_msspeaker.sql" />
   </ItemGroup>
 </Project>
