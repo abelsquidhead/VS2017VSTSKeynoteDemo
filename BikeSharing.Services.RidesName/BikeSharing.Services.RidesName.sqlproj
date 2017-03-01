@@ -215,4 +215,7 @@
   <ItemGroup>
     <None Include="Migrations\0002_20170301-0502_abel.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\0003_20170301-0758_abel.sql" />
+  </ItemGroup>
 </Project>
