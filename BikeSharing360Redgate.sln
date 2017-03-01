@@ -11,6 +11,8 @@ Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "BikeSharing360.IaC", "BikeS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeSharing360.Tests", "BikeSharing360.Tests\BikeSharing360.Tests.csproj", "{6A354EAE-636A-4BF7-9247-A88AD65EEDAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedUITests", "AutomatedUITests\AutomatedUITests.csproj", "{25D269C7-05B8-4616-B7B6-8BEBC7C5A64D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{6A354EAE-636A-4BF7-9247-A88AD65EEDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A354EAE-636A-4BF7-9247-A88AD65EEDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A354EAE-636A-4BF7-9247-A88AD65EEDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25D269C7-05B8-4616-B7B6-8BEBC7C5A64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25D269C7-05B8-4616-B7B6-8BEBC7C5A64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25D269C7-05B8-4616-B7B6-8BEBC7C5A64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25D269C7-05B8-4616-B7B6-8BEBC7C5A64D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
