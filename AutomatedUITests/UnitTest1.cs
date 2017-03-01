@@ -39,8 +39,8 @@ namespace AutomatedUITests
         [TestCategory("UITests")]
         public void BrowseToHomePageTest()
         {
-            
 
+            Assert.IsTrue(true);
             _homePage.BrowseToHomePage("http://vs2017launchbikeshare360d.azurewebsites.net/")
                 .VerifyHomePageReached();
         }
