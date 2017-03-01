@@ -7,7 +7,7 @@ namespace BikeSharing360.Tests.Automated
     public class UnitTest1
     {
         [TestMethod]
-        [TestCategory("UI Test")]
+        [TestCategory("UITest")]
         public void TestMethod1()
         {
             Assert.IsTrue(true);
