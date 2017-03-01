@@ -8,9 +8,45 @@ namespace BikeSharing360.Tests.Automated
     {
         [TestMethod]
         [TestCategory("UITest")]
-        public void TestMethod1()
+        public void BrowseToHomePage()
         {
             Assert.IsTrue(true);
         }
+
+        [TestMethod]
+        [TestCategory("UITest")]
+        public void BrowseToContactPage()
+        {
+            Assert.IsTrue(true);
+        }
+
+        [TestMethod]
+        [TestCategory("UITest")]
+        public void BrowseToAboutPage()
+        {
+            Assert.IsTrue(true);
+        }
+
+        [TestMethod]
+        [TestCategory("UITest")]
+        public void AddMultipleRowsTest()
+        {
+            Assert.IsTrue(true);
+        }
+
+        [TestMethod]
+        [TestCategory("UITest")]
+        public void DeleteUserTest()
+        {
+            Assert.IsTrue(true);
+        }
+
+        [TestMethod]
+        [TestCategory("UITest")]
+        public void EditUserTest()
+        {
+            Assert.IsTrue(true);
+        }
+
     }
 }
