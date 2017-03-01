@@ -56,5 +56,23 @@ namespace BikeSharing360.Tests.Automated
             Assert.IsTrue(true);
         }
 
+        [TestMethod]
+        [TestCategory("UITestsBroken")]
+        
+        public void RentBikeFromKiosk()
+        {
+            Thread.Sleep(random.Next(0, 300));
+            Assert.Fail("Authentication failed, returned back incorrect response" );
+        }
+
+        [TestMethod]
+        [TestCategory("UITestsBroken")]
+
+        public void PayForRide()
+        {
+            Thread.Sleep(random.Next(0, 300));
+            Assert.Fail("Routed to wrong page, could not find thank you page");
+        }
+
     }
 }
